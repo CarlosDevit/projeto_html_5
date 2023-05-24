@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div.clear {
+    clear: both;
+}
+
+div.container {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+html, body {
+    height: 100%;
+}
