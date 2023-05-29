@@ -190,7 +190,7 @@ div.ln1 {
     background: black;
 }
 
-section.featured-vehicles div.line-title h2 {
+div.line-title h2{
     position: relative;
     text-align: center;
     display: inline-block;
@@ -343,6 +343,97 @@ div.depoiment-name {
 
 /*******/
 
+/*Section contact*/
+section.contact{
+    padding: 80px 2%;
+}
+
+section.contact form{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+section.contact div.input-wraper{
+    float: left;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+section.contact input[type=text]{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+
+}
+section.contact textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+    height: 120px;
+    padding: 8px;
+    resize: none;
+}
+
+section.contact form div.input-wraper:nth-of-type(5){
+    text-align: center;
+}
+
+section.contact input[type=submit]{
+    cursor: pointer;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    display: inline-block;
+}
+
+div.w100{
+    width: 100%;
+}
+
+div.w50{
+    width: 50%;
+}
+
+/*******/
+
+/*Footer*/
+
+footer{
+    padding: 40px 2%;
+    background: #252525;
+}
+
+footer nav{
+    float: left;
+}
+
+footer nav ul{
+    list-style-type: none;
+}
+
+footer nav ul li{
+    float: left;
+    font-style: italic;
+    padding: 0 35px;
+    font-size: 19px;
+}
+
+footer nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+
+footer p{
+    float: right;
+    color: white;
+    font-size: 19px;
+    font-style: italic;
+}
+
+/*******/
+
 /*Media Queries*/
 
 /* max-width: 1250px */
@@ -415,6 +506,22 @@ div.depoiment-name {
     div.half2 {
         width: 100%;
         padding: 80px 5%;
+    }
+
+    div.w50{
+        width: 100%;
+    }
+
+    footer nav{
+        display: none;
+    }
+
+    footer{
+        text-align: center;
+    }
+    
+    footer p{
+        float: none;
     }
 
 }
