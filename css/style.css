@@ -250,7 +250,6 @@ div.car-showcase a {
 
 /*Media Queries*/
 
-
 @media screen and (max-width: 1130px) {
     section.banner {
         background-size: cover;
