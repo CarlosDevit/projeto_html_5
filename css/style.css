@@ -190,7 +190,7 @@ div.ln1 {
     background: black;
 }
 
-div.line-title h2{
+div.line-title h2 {
     position: relative;
     text-align: center;
     display: inline-block;
@@ -344,42 +344,45 @@ div.depoiment-name {
 /*******/
 
 /*Section contact*/
-section.contact{
-    padding: 80px 2%;
+section.contact {
+    padding: 80px 2% 0 2%;
 }
 
-section.contact form{
+section.contact form {
     max-width: 600px;
-    margin: 0 auto;
+    margin: 30px auto;
 }
 
-section.contact div.input-wraper{
+section.contact div.input-wraper {
     float: left;
     padding: 10px;
     margin-top: 15px;
 }
 
-section.contact input[type=text]{
+section.contact input[type=text] {
     width: 100%;
-    height: 40px;
+    height: 60px;
+    font-size: 16px;
     line-height: 40px;
     padding-left: 15px;
     border: 1px solid #ccc;
 
 }
-section.contact textarea{
+
+section.contact textarea {
     width: 100%;
+    font-size: 16px;
     border: 1px solid #ccc;
-    height: 120px;
+    height: 140px;
     padding: 8px;
     resize: none;
 }
 
-section.contact form div.input-wraper:nth-of-type(5){
+section.contact form div.input-wraper:nth-of-type(5) {
     text-align: center;
 }
 
-section.contact input[type=submit]{
+section.contact input[type=submit] {
     cursor: pointer;
     border-top: 0;
     border-left: 0;
@@ -387,11 +390,11 @@ section.contact input[type=submit]{
     display: inline-block;
 }
 
-div.w100{
+div.w100 {
     width: 100%;
 }
 
-div.w50{
+div.w50 {
     width: 50%;
 }
 
@@ -399,33 +402,33 @@ div.w50{
 
 /*Footer*/
 
-footer{
+footer {
     padding: 40px 2%;
     background: #252525;
 }
 
-footer nav{
+footer nav {
     float: left;
 }
 
-footer nav ul{
+footer nav ul {
     list-style-type: none;
 }
 
-footer nav ul li{
+footer nav ul li {
     float: left;
     font-style: italic;
     padding: 0 35px;
     font-size: 19px;
 }
 
-footer nav ul li a{
+footer nav ul li a {
     color: white;
     text-decoration: none;
 }
 
 
-footer p{
+footer p {
     float: right;
     color: white;
     font-size: 19px;
@@ -436,16 +439,16 @@ footer p{
 
 /*Page & Section Venda*/
 
-section.sale{
+section.sale {
     padding: 90px 2%;
     min-height: 90%;
 }
 
-div.sale-content{
+div.sale-content {
     margin-top: 40px;
 }
 
-div.sidebar{
+div.sidebar {
     float: left;
     width: 30%;
 }
@@ -454,13 +457,14 @@ div.search1 {
     width: 90%;
 }
 
-div.search1 h2, div.search2 h2{
+div.search1 h2,
+div.search2 h2 {
     font-size: 24px;
     color: black;
     font-weight: normal;
 }
 
-div.search1 div.price-bar{
+div.search1 div.price-bar {
     width: 100%;
     height: 20px;
     background: white;
@@ -470,17 +474,17 @@ div.search1 div.price-bar{
     position: relative;
 }
 
-div.price-bar-fill{
+div.price-bar-fill {
     position: absolute;
     left: 0;
     top: 0;
     width: 30%;
     height: 20px;
     border-radius: 20px;
-    background: linear-gradient(to bottom,rgb(255, 255, 255),rgb(200, 200, 200));
+    background: linear-gradient(to bottom, rgb(255, 255, 255), rgb(200, 200, 200));
 }
 
-div.pointer-bar{
+div.pointer-bar {
     width: 26px;
     height: 26px;
     position: absolute;
@@ -489,37 +493,38 @@ div.pointer-bar{
     cursor: pointer;
     border: 1px solid #777;
     border-radius: 8px;
-    background: linear-gradient(to bottom,rgb(255, 255, 255),rgb(180, 180, 180));
+    background: linear-gradient(to bottom, rgb(255, 255, 255), rgb(180, 180, 180));
 }
 
-div.search-value{
+div.search-value {
     margin-top: 8px;
 }
 
-div.search-value p{
+div.search-value p {
     color: black 14px;
 }
 
-div.search-value p:nth-of-type(1){
+div.search-value p:nth-of-type(1) {
     float: left;
 }
 
-div.search-value p:nth-of-type(2){
+div.search-value p:nth-of-type(2) {
     float: right;
 }
 
-div.search2{
+div.search2 {
     margin-top: 40px;
 }
 
-div.form-sale-wraper{
+div.form-sale-wraper {
     margin-top: 10px;
 }
-div.form-sale-wraper input[type=checkbox]{
+
+div.form-sale-wraper input[type=checkbox] {
     display: none;
 }
 
-div.form-sale-wraper label{
+div.form-sale-wraper label {
     width: 20px;
     height: 20px;
     display: inline-block;
@@ -530,11 +535,11 @@ div.form-sale-wraper label{
     position: relative;
 }
 
-div.form-sale-wraper input[type=checkbox]:checked + label > div.circle{
+div.form-sale-wraper input[type=checkbox]:checked+label>div.circle {
     display: block;
 }
 
-div.circle{
+div.circle {
     width: 8px;
     height: 8px;
     display: none;
@@ -545,20 +550,20 @@ div.circle{
     top: 6px;
 }
 
-div.form-sale-wraper span{
+div.form-sale-wraper span {
     padding: 0 10px;
     display: inline-block;
     vertical-align: top;
 }
 
-div.sale-showcase{
+div.sale-showcase {
     overflow: hidden;
     float: left;
     width: 70%;
-    
+
 }
 
-div.sale-showcase div.car-showcase{
+div.sale-showcase div.car-showcase {
     margin-top: 20px;
 }
 
@@ -567,61 +572,126 @@ div.sale-showcase div.car-showcase{
 
 /*Page Veiculo teste*/
 
-section.sale-single{
-    padding: 0 2%;
+section.sale-single {
+    padding: 80px 2% 0 2%;
 }
 
-section.sale-single div.container{
+section.sale-single div.container {
     padding: 40px 2%;
+    text-align: center;
+    max-width: 1280px;
 
 }
 
-div.car-info2{
-    float: left;
+
+div.line-sale {
+    margin-top: -70px;
+    margin-bottom: 40px;
+}
+
+div.car-info2 {
+    margin-top: 5px;
+    display: inline-block;
     width: 60%;
 }
 
-div.featured-photo{
+div.featured-photo {
     width: 100%;
     padding-top: 70%;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
-div.car-description{
-    float: left;
-    width: 40%;
-    padding: 20px;
+div.car-description {
+    display: inline-block;
+    vertical-align: top;
+    padding: 60px 20px;
+    text-align: left;
 }
 
-div.car-description p{
+div.car-description p {
     margin-top: 25px;
-    max-width: 360px;
+    font-size: 17px;
+    max-width: 200px;
 }
 
-div.car-description a{
+div.car-description a {
     margin-top: 25px;
 }
 
-div.nav-galery{
+div.nav-galery-parent {
     width: 100%;
-    padding: 15px;
-    margin-top: 15px;
-    overflow: scroll;
+    padding: 36px;
+    position: relative;
 }
 
-div.nav-galery-wraper{
+div.arrow-left-nav {
+    position: absolute;
+    left: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    cursor: pointer;
+    background-image: url(../images/arrow-left.png);
+    background-size: 100% 100%;
+    width: 22px;
+    height: 22px;
+}
+
+div.arrow-right-nav {
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    cursor: pointer;
+    background-image: url(../images/arrow-right.png);
+    background-size: 100% 100%;
+    width: 22px;
+    height: 22px;
+}
+
+div.info-bread {
+    padding: 20px 2%;
+    text-align: left;
+}
+
+div.info-bread a {
+    text-decoration: none;
+    color: black;
+}
+
+div.info-bread a:last-child {
+    color: red;
+}
+
+div.info-bread span {
+    padding: 0 30px;
+}
+
+div.nav-galery {
+    width: 100%;
+    overflow: hidden;
+}
+
+div.nav-galery-wraper {
     width: 200%;
 }
 
-div.mini-img{
+div.mini-img-wraper{
     float: left;
+    padding: 9px;
+    width: calc(33.3% * (100 / 200));
+}
+
+div.mini-img {
+    width: 100%;
+    padding-top: 70%;
+    cursor: pointer;
     background-position: center;
     background-size: cover;
-    padding-top: calc(33.3% * (100 / 200) * 0.4);
-    width: calc(33.3% * (100 / 200));
-    border: 2px solid white;
+    background-color: green;
 }
 
 /*******/
@@ -659,16 +729,18 @@ div.mini-img{
 }
 
 @media screen and (max-width: 1100px) {
-        div.sale-showcase, div.sidebar{
+
+    div.sale-showcase,
+    div.sidebar {
         text-align: center;
         width: 100%;
     }
 
-    div.search1{
+    div.search1 {
         display: inline-block;
     }
 
-        div.search2{
+    div.search2 {
         display: inline-block;
         text-align: left;
     }
@@ -718,20 +790,36 @@ div.mini-img{
         padding: 80px 5%;
     }
 
-    div.w50{
+    div.w50 {
         width: 100%;
     }
 
-    footer nav{
+    footer nav {
         display: none;
     }
 
-    footer{
+    footer {
         text-align: center;
     }
-    
-    footer p{
+
+    footer p {
         float: none;
+    }
+
+    div.car-info2{
+        width: 100%;
+    }
+    div.car-description {
+        padding: 20px 2%;
+        text-align: center;
+    }
+
+    div.car-description a {
+        display: inline-block;
+    }
+
+    div.car-description p {
+        max-width: none;
     }
 
 }
