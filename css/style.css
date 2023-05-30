@@ -403,6 +403,7 @@ div.w50 {
 /*Footer*/
 
 footer {
+    margin-top: 20px;
     padding: 40px 2%;
     background: #252525;
 }
@@ -679,7 +680,7 @@ div.nav-galery-wraper {
     width: 200%;
 }
 
-div.mini-img-wraper{
+div.mini-img-wraper {
     float: left;
     padding: 9px;
     width: calc(33.3% * (100 / 200));
@@ -696,6 +697,60 @@ div.mini-img {
 
 /*******/
 
+/*Paga & Section Sobre/about*/
+
+section.about {
+    min-height: 90%;
+    padding: 60px 2% 20px 2%;
+}
+
+section.about div.container {
+    margin-top: 30px;
+    max-width: 840px;
+}
+
+section.about div.featured-img-about {
+    width: 100%;
+    padding-top: 60%;
+    background-color: rgb(220, 220, 220);
+}
+
+section.about div.description-author {
+    margin-top: 20px;
+}
+
+div.description-author h2 {
+    font-size: 24px;
+}
+
+div.description-author p {
+    font-size: 16px;
+    margin-top: 10px;
+    line-height: 28px;
+}
+
+div.description-author2 {
+    margin-top: 20px;
+
+}
+
+div.small-img {
+    float: left;
+    width: 30%;
+    padding-top: 30%;
+    background-color: rgb(220, 220, 220);
+}
+
+div.description-author2 p {
+    float: left;
+    width: 70%;
+    padding: 15px;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+
+/*******/
 
 /*Media Queries*/
 
@@ -806,9 +861,10 @@ div.mini-img {
         float: none;
     }
 
-    div.car-info2{
+    div.car-info2 {
         width: 100%;
     }
+
     div.car-description {
         padding: 20px 2%;
         text-align: center;
@@ -822,6 +878,34 @@ div.mini-img {
         max-width: none;
     }
 
+    div.description-author {
+        text-align: center;
+    }
+
+    div.description-author p {
+        text-align: justify;
+    }
+
+    div.description-author2{
+        text-align: center;
+    }
+
+
+    div.small-img {
+        float: none;
+        display:inline-block;
+        width: 50%;
+        padding-top: 50%;
+        text-align: center;
+    }
+
+    div.description-author2 p {
+        float: none;
+        display:inline-block;
+        width: 100%;
+        padding: 20px 2%;
+        text-align: justify;
+    }
 }
 
 /* max-width: 580px */
@@ -838,6 +922,11 @@ div.mini-img {
 
     div.text-banner div.text-banner-single:nth-of-type(4) {
         width: 270px;
+    }
+    
+    div.small-img {
+        width: 100%;
+        padding-top: 100%;
     }
 }
 
